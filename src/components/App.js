@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import NavBar from "./NavBar";
-import GiftListContainer from "./GifListContainer";
+import GifListContainer from "./GifListContainer";
 
 // the App component should render out the GifListContainer component
 
@@ -10,7 +10,8 @@ function App() {
     <div>
       <NavBar color="black" title="Giphy Search" />
       <Routes>
-        <Route path= "/giflistcontainer" element={<GiftListContainer />}/>
+        <Route path= "/" element={<GifListContainer />}/>
+  
       </Routes>
     </div>
   );
